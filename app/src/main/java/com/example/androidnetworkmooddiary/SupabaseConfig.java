@@ -8,6 +8,6 @@ public class SupabaseConfig {
     public static final String AUTH_SIGNIN_URL =
             SUPABASE_URL + "/auth/v1/token?grant_type=password";
     public static final String TABLE_URL =
-            SUPABASE_URL + "/rest/v1/MoodDiary";
+            SUPABASE_URL + "/rest/v1/MoodDiary?user_id=eq.";
 
 }
