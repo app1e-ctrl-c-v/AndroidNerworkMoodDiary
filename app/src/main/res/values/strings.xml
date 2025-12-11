@@ -1,3 +1,13 @@
 <resources>
     <string name="app_name">AndroidNetworkMoodDiary</string>
+    <string name="warning_empty">Заполните все поля</string>
+        <string name="login_title">Вход в приложение</string>
+        <string name="email_hint">Электронная почта</string>
+        <string name="password_hint">Пароль - минимум 8 символов</string>
+        <string name="login_button">Вход</string>
+        <string name="register_button">Регистрация</string>
+        <string name="no_account">Нет аккаунта?</string>
+        <string name="forgot_password">Забыли пароль?</string>
+        <string name="email_error">Введите корректный email</string>
+        <string name="password_error">Пароль должен содержать минимум 6 символов</string>
 </resources>
