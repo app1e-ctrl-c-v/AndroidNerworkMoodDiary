@@ -225,11 +225,9 @@ public class LoginActivity extends AppCompatActivity {
         } else {
             inputStream = connection.getErrorStream();
         }
-
         if (inputStream == null) {
             return null;
         }
-
         BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream, "UTF-8"));
         StringBuilder response = new StringBuilder();
         String line;
