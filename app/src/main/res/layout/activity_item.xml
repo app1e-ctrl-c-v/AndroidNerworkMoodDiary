@@ -22,6 +22,7 @@
             android:layout_height="wrap_content"
             android:text="01 января 2023"
             android:textSize="12sp"
+            android:maxLength="10"
             android:layout_marginBottom="4dp" />
         <TextView
             android:id="@+id/textComment"
@@ -57,7 +58,7 @@
         </LinearLayout>
     </LinearLayout>
     <ImageButton
-        android:id="@+id/btnDelete"
+        android:id="@+id/buttonDelete"
         android:layout_width="50dp"
         android:layout_height="50dp"
         android:background="@drawable/delete_button_background"

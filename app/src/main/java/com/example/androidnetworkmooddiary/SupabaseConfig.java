@@ -9,5 +9,7 @@ public class SupabaseConfig {
             SUPABASE_URL + "/auth/v1/token?grant_type=password";
     public static final String TABLE_URL =
             SUPABASE_URL + "/rest/v1/MoodDiary?user_id=eq.";
+    public static final String ID_ROW_URL =
+            SUPABASE_URL + "/rest/v1/MoodDiary?id=eq.";
 
 }
