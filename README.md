@@ -10,6 +10,7 @@
 <img width="816" height="726" alt="image" src="https://github.com/user-attachments/assets/228c280a-03b9-43b0-b174-b94378dfdc16" />
 
 https://github.com/user-attachments/assets/87269412-84d2-48b1-974f-15b623fb9a69
+
 Реализовано приложение, выводящее список заметок из дневника настроения пользователя. Регистрация и вход проходит по электронной почте и паролю, система аутентификация основана на Supabase, где хранятся данные. Взаимодействие с API происходит через HTTP-соединения. Для обеспечения безопасности данных был использован механизм PostgreSQL, который ограничивает доступ к данным по uid пользователя.
 <img width="338" height="596" alt="image" src="https://github.com/user-attachments/assets/2ae35343-ec73-416f-9399-9453ebd31edd" />
 <img width="1236" height="311" alt="image" src="https://github.com/user-attachments/assets/b6345044-5525-45b6-afbe-e64f506cb8e8" />
