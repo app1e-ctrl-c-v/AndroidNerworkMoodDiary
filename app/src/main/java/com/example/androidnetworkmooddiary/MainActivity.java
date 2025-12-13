@@ -167,7 +167,7 @@ public class MainActivity extends AppCompatActivity {
         etGrade.setHint("Оценка настроения (число от 0 до 10)");
         etGrade.setInputType(InputType.TYPE_CLASS_NUMBER);
         final EditText etDueDate = new EditText(this);
-        etDueDate.setHint("Дата (YYYY.MM.DD)");
+        etDueDate.setHint("Дата (MM.DD.YYYY)");
         LinearLayout container = new LinearLayout(this);
         container.setOrientation(LinearLayout.VERTICAL);
         int padding = (int) (16 * getResources().getDisplayMetrics().density);
